@@ -32,10 +32,10 @@ knitr::write_bib(pkgs, "packages.bib", prefix = "")
 
 <p class="forceBreak"></p>
 
-**Terrell Russell - Executive Director**    
+Terrell Russell - Executive Director   
 
 ![](images/terrell.jpg){width=40%}     
-**Kory Draughn - Chief Technologist**  
+Kory Draughn - Chief Technologist 
 
 ![](images/kory_draughn.png){width=40%}       
 
@@ -123,6 +123,36 @@ Policy Enforcement Points (PEPs) are triggered by every operation within the fra
 *The iRODS rule engine framework provides the ability to capture
 real world policy as computer actionable rules which may allow,
 deny, or add context to operations within the system.*
+</div>
+
+## Dynamic Policy Enforcement {data-background=white data-background-size=cover}
+
+![](images/pep.png){width=90%}
+
+The iRODS rule may:
+
+- restrict access
+- log for audit and reporting
+- provide additional context
+- send a notification
+
+## Secure Collaboration {data-background=white}
+
+<div class="columns-2">
+  <center>
+    ![](images/sec-collab.png){width=50%}
+  </center>
+
+<p class="forceBreak"></p>
+
+iRODS allows for collaboration across administrative boundaries after deployment
+
+- No need for common infrastructure
+- No need for shared funding
+- Affords temporary collaborations
+
+*iRODS provides the ability to federate namespaces across
+organizations without pre-coordinated funding or effort.*
 </div>
 
 ## References
