@@ -1,7 +1,9 @@
+.forceBreak { -webkit-column-break-after: always; break-after: column; }
+
 /* logo title page */
 .gdbar img {
-  width: 312px !important;
-  height: 137px !important;
+  width: 334px !important;
+  height: 85px !important;
   margin: 8px 8px;
 }
 

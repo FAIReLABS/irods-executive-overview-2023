@@ -1,14 +1,13 @@
 ---
-title: "FAIReLABS"
-subtitle: "Presentation Template"
+subtitle: "Executive overview"
 author: | 
-  |Alice Devries
-  |Old Town, Old Country
+  |Martin Schobben
+  |Vienna University of Technology, Austria
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   ioslides_presentation:
     css: styles/fairelabs.css
-    logo: images/fairelabs.png
+    logo: images/iRODS-Logo-768x170.png
     widescreen: TRUE
     incremental: FALSE
 bibliography: "packages.bib"
@@ -21,6 +20,65 @@ knitr::opts_chunk$set(echo = FALSE)
 pkgs <- c("knitr", "rmarkdown")
 knitr::write_bib(pkgs, "packages.bib", prefix = "")
 ```
+
+
+## {data-background=white .centered}
+
+<div class="columns-2">
+
+![](images/irods-irods-logo.png){width=60%K}
+![](images/irods_renci.png){width=60%K}
+![](images/irods_chapel_hill.png){width=60%}
+
+<p class="forceBreak"></p>
+
+**Terrell Russell - Executive Director**    
+
+![](images/terrell.jpg){width=40%}     
+**Kory Draughn - Chief Technologist**  
+
+![](images/kory_draughn.png){width=40%}       
+
+*And a long list of current and former team members as well as outside collaborators.*
+
+</div>
+
+## {data-background=images/network-overview.png data-background-size=cover}
+
+## What is iRODS
+
+- **Distributed**
+  + Runs on a laptop, a cluster, on premises or geographically distributed
+
+- **Open Source** 
+  + BSD-3 Licensed, install it today and try before you buy
+  
+- **Data Centric & Metadata Driven**
+  + Insulate both your user and your data from your infrastructure
+  
+## iRODS as the Integration Layer {data-background=images/integration_layer.png data-background-size=70%}
+
+## iRODS Core Competencies {data-background=images/core_comps.png data-background-size=50%}
+
+## Data Virtualization {data-background=white}
+
+<div class="columns-2">
+  <center>
+    ![](images/data-virt.png){width=50%}
+  </center>
+
+<p class="forceBreak"></p>
+
+Combine various distributed storage technologies into a Unified Namespace
+
+- Existing file systems
+- Cloud storage
+- On premises object storage
+- Archival storage systems
+
+*iRODS provides a logical view into the complex physical representation of your data, distributed geographically, and at scale*
+</div>
+
 
 ## R Markdown
 
