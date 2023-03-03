@@ -1,5 +1,5 @@
 ---
-subtitle: "Executive overview"
+title: "Executive overview"
 author: | 
   |Martin Schobben
   |Vienna University of Technology, Austria
@@ -102,5 +102,27 @@ Attach metadata to any first class entity within the iRODS Zone
 </div>
 
 ## Metadata Everywhere {data-background=images/meta-data.png data-background-size=68%}
+
+## Workflow Automation {data-background=white}
+
+<div class="columns-2">
+  <center>
+    ![](images/workflow_automat.png){width=50%}
+  </center>
+
+<p class="forceBreak"></p>
+
+Policy Enforcement Points (PEPs) are triggered by every operation within the framework
+
+- Authentication
+- Storage
+- Database Interaction
+- Network Activity
+- Extensible RPC API
+
+*The iRODS rule engine framework provides the ability to capture
+real world policy as computer actionable rules which may allow,
+deny, or add context to operations within the system.*
+</div>
 
 ## References
