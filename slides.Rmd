@@ -26,9 +26,9 @@ knitr::write_bib(pkgs, "packages.bib", prefix = "")
 
 <div class="columns-2">
 
-![](images/irods-irods-logo.png){width=60%K}
-![](images/irods_renci.png){width=60%K}
-![](images/irods_chapel_hill.png){width=60%}
+![](images/irods-irods-logo.png){width=70%K}
+![](images/irods_renci.png){width=70%K}
+![](images/irods_chapel_hill.png){width=70%}
 
 <p class="forceBreak"></p>
 
@@ -79,45 +79,28 @@ Combine various distributed storage technologies into a Unified Namespace
 *iRODS provides a logical view into the complex physical representation of your data, distributed geographically, and at scale*
 </div>
 
+## Projection of the Physical into the Logical {data-background=images/virtual_fsystem.png data-background-size=70%}
 
-## R Markdown
-
-This is an R Markdown  presentation [@rmarkdown]. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
-
-## Slide with Bullets
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
-
-## Centered
-
-<div class="centered">
-This text is centered.
-</div>
-
-## Two columns
+## Data Discovery {data-background=white}
 
 <div class="columns-2">
-  ![](images/fairelabs.png){width=60%K}
+  <center>
+    ![](images/data-disc.png){width=50%}
+  </center>
 
-  - Bullet 1
-  - Bullet 2
-  - Bullet 3
+<p class="forceBreak"></p>
+
+Attach metadata to any first class entity within the iRODS Zone
+
+- Data Objects
+- Collections
+- Users
+- Storage Resources
+- The Namespace
+
+*iRODS supports automated and user-provided metadata which makes your data and infrastructure more discoverable, operational, and valuable*
 </div>
+
+## Metadata Everywhere {data-background=images/meta-data.png data-background-size=68%}
 
 ## References
