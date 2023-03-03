@@ -32,14 +32,14 @@ knitr::write_bib(pkgs, "packages.bib", prefix = "")
 
 <p class="forceBreak"></p>
 
-Terrell Russell - Executive Director   
+**Terrell Russell - Executive Director**    
 
-![](images/terrell.jpg){width=40%}     
-Kory Draughn - Chief Technologist 
+![](images/terrell.jpg){width=35%}     
+**Kory Draughn - Chief Technologist**  
 
-![](images/kory_draughn.png){width=40%}       
+![](images/kory_draughn.png){width=35%}       
 
-*And a long list of current and former team members as well as outside collaborators.*
+*A long list of current and former team members as well as outside collaborators.*
 
 </div>
 
