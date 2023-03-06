@@ -32,12 +32,10 @@ knitr::write_bib(pkgs, "packages.bib", prefix = "")
 
 <p class="forceBreak"></p>
 
-**Terrell Russell - Executive Director**    
 
-![](images/terrell.jpg){width=35%}     
-**Kory Draughn - Chief Technologist**  
+![**Terrell Russell - Executive Director**](images/terrell.jpg){width=35%}     
 
-![](images/kory_draughn.png){width=35%}       
+![**Kory Draughn - Chief Technologist**](images/kory_draughn.png){width=35%}       
 
 *A long list of current and former team members as well as outside collaborators.*
 
@@ -57,6 +55,8 @@ knitr::write_bib(pkgs, "packages.bib", prefix = "")
   + Insulate both your user and your data from your infrastructure
   
 ## iRODS as the Integration Layer {data-background=images/integration_layer.png data-background-size=70%}
+
+# iRODS Core Competencies
 
 ## iRODS Core Competencies {data-background=images/core_comps.png data-background-size=50%}
 
@@ -154,5 +154,44 @@ iRODS allows for collaboration across administrative boundaries after deployment
 *iRODS provides the ability to federate namespaces across
 organizations without pre-coordinated funding or effort.*
 </div>
+
+## iRODS as a Service Interface {data-background=white data-background-size=cover .centered}
+
+![](images/irods_aas.png){width=50%}
+
+## Federation {data-background=white data-background-size=cover .centered}
+
+![](images/irods-shared-data.png){width=60%}
+
+# Policies
+
+## Data Lifecycle {data-background=images/data-lifecycle.png data-background-size=90%}
+
+## iRODS policies
+
+**Definition:** A set of ideas or a plan of what to do in particular situations that has been agree to officially by a group of people ...
+
+**iRODS solution:** The reflection of real world data management decisions in computer actionable code.
+
+# Capabilities
+
+## Capabilities {data-background=white data-background-size=cover}
+
+- Packaged and supported solutions
+- Require configuration not code
+- Derived from popular use cases
+
+![](images/irods-capabilities.png){width=80%}
+
+## {data-background=images/capability_automated_ingest_landing_zone.jpg data-background-size=80%}
+
+# Deployment patterns
+
+## {data-background=images/pattern_data_to_compute.jpg data-background-size=80%}
+
+## {.centered}
+
+Thanks for listening!
+
 
 ## References
