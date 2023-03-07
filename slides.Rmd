@@ -195,4 +195,4 @@ Thanks for listening!
 
 <iframe src="https://irods.org/" scrolling="yes"></iframe>
 
-## References
+## {data-background=images/pattern_compute_to_data.jpg data-background-size=80%}
